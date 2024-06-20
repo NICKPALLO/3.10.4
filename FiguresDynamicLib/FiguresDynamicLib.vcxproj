@@ -104,7 +104,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_LIB;TRIANGLE_EXPORTS;SQUARE_EXPORTS;RIGHT_TRIANGLE_EXPORTS;RHOMBUS_EXPORTS;RECTANGL_EXPORTS;QUADRILATERAL_EXPORTS;PARALLELOGRAM_EXPORTS;ISOSCELES_TRIANGLE_EXPORTS;FIGURE_EXPORTS;ERROR_EXPORTS;EQUILATERAL_TRIANGLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>

@@ -106,11 +106,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Projects C++\3.5.2 Figures, sides and angles\FiguresDynamicLib;D:\Projects C++\3.5.2 Figures, sides and angles\x64\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)FiguresDynamicLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(SolutionDir)FiguresDynamicLib\x64\Debug\Figure;$(SolutionDir)FiguresDynamicLib\x64\Debug\Isosceles_triangle;$(SolutionDir)FiguresDynamicLib\x64\Debug\Parallelogram;$(SolutionDir)FiguresDynamicLib\x64\Debug\Quadrilateral;$(SolutionDir)FiguresDynamicLib\x64\Debug\Rectangl;$(SolutionDir)FiguresDynamicLib\x64\Debug\Rhombus;$(SolutionDir)FiguresDynamicLib\x64\Debug\Right_triangle;$(SolutionDir)FiguresDynamicLib\x64\Debug\Square;$(SolutionDir)FiguresDynamicLib\x64\Debug\Triangle;$(SolutionDir)FiguresDynamicLib\x64\Debug\Equilateral_triangle</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
